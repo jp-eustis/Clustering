@@ -1,0 +1,16 @@
+Kmeans:
+	The initial starting points actually represented the classes well when looking at the dataset, It was almost spot on in defining
+The different types of animals per cluster. However the classification modell(decision table) only chose four attributes to take into
+account. The Kmeans model took 7 attributes into account which better represents the dataset. Even though the starting points were
+almost spot on in terms of classification the final cluster made the data a little bit more foggy. it was saying every cluster besides 
+one would have legs which is not true, and it said one class on average would only have one leg. The other true false values did seem
+relatively accurate with slight misconceptions every so often.
+
+EM(predictive clustering):
+	The predictive clustering made four clusters which made it hard to compare to the dataset, but easy to compare to the decision table.
+It was relatively similar to the decision table however it did take into account a lot more variables which was to be expected. It was
+comparable to the decision table when estamating feathers(DT:2T,4F)(EM:1T,3F) and airborne(DT:3T,3F)(EM:2T,2F)
+
+EM(set clusters):
+	The set clusters were accurate in terms of aquatic(3F,3T), predator(4F,2T) and tail(1F,5T), the rest of the data was not similiar based
+on number of instances but wasn't incredibly innacurate.
